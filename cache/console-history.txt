@@ -1,0 +1,3 @@
+const contract = await ethers.getContractAt("ProductManager","0x5fbdb2315678afecb367f032d93f642f64180aa3")
+console.log(await contract.someFunction());  // Call a function to check
+const contract = await ethers.getContractAt("ProductManager", "0x5fbdb2315678afecb367f032d93f642f64180aa3");
